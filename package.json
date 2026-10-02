@@ -1,0 +1,22 @@
+{
+  "name": "aalphaleo-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/css/input.css -o ./out/assets/css/main.css --minify",
+    "build:site": "node build/build.js",
+    "build": "npm run build:css && npm run build:site",
+    "audit:seo": "node scripts/audit-seo.js",
+    "generate:blog-images": "node scripts/generate-blog-images.js",
+    "generate:blogs": "node scripts/generate-blogs.js",
+    "generate:locations": "node scripts/generate-locations.js",
+    "publish:blogs": "node scripts/import-blogs.js",
+    "generate:gallery": "node scripts/generate-gallery-demos.js",
+    "generate:services": "node scripts/generate-service-images.js"
+  },
+  "devDependencies": {
+    "marked": "^18.0.6",
+    "puppeteer": "^25.3.0",
+    "tailwindcss": "^3.4.17"
+  }
+}

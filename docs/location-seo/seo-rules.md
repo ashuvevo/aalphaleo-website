@@ -1,0 +1,3 @@
+# Seo Rules
+
+Project documentation.

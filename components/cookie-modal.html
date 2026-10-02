@@ -1,0 +1,75 @@
+<!-- Cookie consent UI — injected by cookie-consent.js; reference template for build -->
+<div id="cookie-consent-root" aria-live="polite">
+  <div class="cookie-overlay" id="cookie-overlay" hidden aria-hidden="true"></div>
+
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-modal="false" aria-labelledby="cookie-banner-title" aria-describedby="cookie-banner-desc" hidden>
+    <div class="cookie-card">
+      <h2 class="cookie-title" id="cookie-banner-title">🍪 Cookie Preferences</h2>
+      <p class="cookie-description" id="cookie-banner-desc">
+        We use cookies to improve your browsing experience, analyze website traffic, personalize content, and enhance marketing performance. You can accept all cookies, reject optional cookies, or customize your preferences.
+      </p>
+      <div class="cookie-buttons">
+        <button type="button" class="cookie-accept" id="cookie-accept-all" aria-label="Accept all cookies">Accept All</button>
+        <button type="button" class="cookie-reject" id="cookie-reject-all" aria-label="Reject optional cookies">Reject All</button>
+        <button type="button" class="cookie-customize" id="cookie-customize" aria-label="Customize cookie preferences">Customize</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="cookie-modal" id="cookie-modal" role="dialog" aria-modal="true" aria-labelledby="cookie-modal-title" hidden>
+    <div class="cookie-card">
+      <div class="cookie-modal-header">
+        <h2 class="cookie-title" id="cookie-modal-title">🍪 Cookie Preferences</h2>
+        <button type="button" class="cookie-modal-close" id="cookie-modal-close" aria-label="Close cookie preferences dialog">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="cookie-toggle">
+        <div class="cookie-toggle-info">
+          <span class="cookie-toggle-label">Necessary</span>
+          <p class="cookie-toggle-desc">Required for website functionality. Always enabled. Cannot be disabled.</p>
+        </div>
+        <button type="button" class="cookie-switch" id="cookie-toggle-necessary" role="switch" aria-checked="true" aria-label="Necessary cookies" disabled>
+          <span class="cookie-switch-thumb"></span>
+        </button>
+      </div>
+
+      <div class="cookie-toggle">
+        <div class="cookie-toggle-info">
+          <span class="cookie-toggle-label">Analytics</span>
+          <p class="cookie-toggle-desc">Used by Google Analytics 4 and Microsoft Clarity.</p>
+        </div>
+        <button type="button" class="cookie-switch" id="cookie-toggle-analytics" role="switch" aria-checked="false" aria-label="Analytics cookies">
+          <span class="cookie-switch-thumb"></span>
+        </button>
+      </div>
+
+      <div class="cookie-toggle">
+        <div class="cookie-toggle-info">
+          <span class="cookie-toggle-label">Marketing</span>
+          <p class="cookie-toggle-desc">Used by Google Ads and Meta Pixel.</p>
+        </div>
+        <button type="button" class="cookie-switch" id="cookie-toggle-marketing" role="switch" aria-checked="false" aria-label="Marketing cookies">
+          <span class="cookie-switch-thumb"></span>
+        </button>
+      </div>
+
+      <div class="cookie-toggle">
+        <div class="cookie-toggle-info">
+          <span class="cookie-toggle-label">Preferences</span>
+          <p class="cookie-toggle-desc">Stores UI preferences.</p>
+        </div>
+        <button type="button" class="cookie-switch" id="cookie-toggle-preferences" role="switch" aria-checked="false" aria-label="Preferences cookies">
+          <span class="cookie-switch-thumb"></span>
+        </button>
+      </div>
+
+      <div class="cookie-modal-actions">
+        <button type="button" class="cookie-save" id="cookie-save-preferences" aria-label="Save cookie preferences">Save Preferences</button>
+        <button type="button" class="cookie-accept" id="cookie-modal-accept-all" aria-label="Accept all cookies">Accept All</button>
+        <button type="button" class="cookie-reject" id="cookie-modal-reject-all" aria-label="Reject optional cookies">Reject All</button>
+      </div>
+    </div>
+  </div>
+</div>

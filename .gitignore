@@ -1,0 +1,10 @@
+node_modules/
+out/
+logs/
+.env
+.env.*
+api/config.php
+*.log
+.DS_Store
+Thumbs.db
+verify-output.txt

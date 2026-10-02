@@ -1,0 +1,3 @@
+# Schema Guidelines
+
+Project documentation.
